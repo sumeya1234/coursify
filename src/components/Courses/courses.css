@@ -1,0 +1,11 @@
+.filterButton{
+  padding:4px 8px;
+  background-color: #e4e4e4;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+.filterButton:hover, .filterButton:focus{
+  color: whitesmoke;
+  background-color: #FF6652;
+}
