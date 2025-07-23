@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '../ui/button'
 
 const Banner = () => {
   return (
@@ -9,17 +8,16 @@ const Banner = () => {
           <p className="inline-block p-3 text-sm font-normal text-red-500 bg-white rounded">
             Never Stop Learning
           </p>
-          <h1 className="my-4 text-4xl font-bold leading-relaxed">
+          <h1 className="my-4 text-4xl font-bold leading-relaxed textDark">
             Grow up your skills by online courses with Coursify
           </h1>
-          <p className="text-2xl font-light leading-relaxed">
-            Coursify is a Global training provider based across the UK that
-            specialises in accredited and bespoke training courses. We crush the
-            barriers togetting a degree.
+          <p className="text-2xl font-light leading-relaxed textGray">
+            Learn new skills with short, focused online courses tailored for
+            you. Join thousands of students already transforming their careers.
           </p>
-          <Button className="px-6 py-2 mt-4 text-white bg-blue-500 rounded text-md font-extralight">
+          <button className="px-6 py-2 mt-4 text-white rounded customPurple text-md font-extralight">
             Start Learning
-          </Button>
+          </button>
         </div>
         <div className="flex-1 my-4 banner-right-side">
           <img
