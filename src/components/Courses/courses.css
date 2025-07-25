@@ -4,6 +4,7 @@
   cursor: pointer;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
+  font-weight: lighter;
 }
 .filterButton:hover, .filterButton:focus{
   color: whitesmoke;

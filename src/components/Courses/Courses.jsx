@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./courses.css";
+import CourseCard from './CourseCard';
 const Courses = () => {
+  const [filter, setFilter] = useState("All");
+  const filterCourses = (category) => {
+    setFilter(category);
+  }
+  
   return (
     <>
       <div className="p-8 wrapper">
@@ -14,11 +20,26 @@ const Courses = () => {
           </p>
         </div>
         <div className="flex justify-center gap-4 my-5 button-wrapper">
-          <button className="filterButton">All</button>
-          <button className="filterButton">Business</button>
-          <button className="filterButton">Development</button>
-          <button className="filterButton">Design</button>
+          <button onClick={() => filterCourses("All")} className="filterButton">
+            All
+          </button>
+          <button
+            onClick={() => filterCourses("Business")}
+            className="filterButton"
+          >
+            Business
+          </button>
+          <button
+            onClick={() => filterCourses("Development")}
+            className="filterButton"
+          >
+            Development
+          </button>
+          <button onClick={() => filterCourses("Design")} className="filterButton">
+            Design
+          </button>
         </div>
+        <CourseCard filter={filter} />
       </div>
     </>
   )
