@@ -9,7 +9,7 @@ const Courses = () => {
   
   return (
     <>
-      <div className="p-8 wrapper">
+      <div className="p-8">
         <div>
           <h1 className="text-4xl font-bold text-center textDark">
             Explore Our Courses
@@ -19,7 +19,7 @@ const Courses = () => {
             industry experts
           </p>
         </div>
-        <div className="flex justify-center gap-4 my-5 button-wrapper">
+        <div className="flex justify-center gap-4 my-5 ">
           <button onClick={() => filterCourses("All")} className="filterButton">
             All
           </button>
