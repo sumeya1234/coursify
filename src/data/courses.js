@@ -7,8 +7,46 @@ export const courseList = [
     duration: "8 hours",
     level: "Beginner",
     category: "Development",
-    videoId: "bMknfKXIFA8", // React Tutorial for Beginners
+    videoId: "bMknfKXIFA8",
     instructor: "Mosh Hamedani",
+    lessons: [
+      {
+        id: 1,
+        title: "Introduction to React",
+        videoId: "w7ejDZ8SWv8",
+        duration: "15 min",
+      },
+      {
+        id: 2,
+        title: "JSX and Components",
+        videoId: "DPnqb74Smug",
+        duration: "20 min",
+      },
+      {
+        id: 3,
+        title: "State and Props",
+        videoId: "35lXWvCuM8o",
+        duration: "25 min",
+      },
+      {
+        id: 4,
+        title: "Lifecycle Methods",
+        videoId: "N9Z5G9X5q88",
+        duration: "30 min",
+      },
+      {
+        id: 5,
+        title: "Hooks Overview",
+        videoId: "dpw9EHDh2bM",
+        duration: "40 min",
+      },
+      {
+        id: 6,
+        title: "Building a Todo App",
+        videoId: "Ke90Tje7VS0",
+        duration: "50 min",
+      },
+    ],
   },
   {
     id: 2,
@@ -18,8 +56,46 @@ export const courseList = [
     duration: "6 hours",
     level: "Intermediate",
     category: "Development",
-    videoId: "NCwa_xi0Uuc", // JavaScript ES6 Tutorial
+    videoId: "NCwa_xi0Uuc",
     instructor: "Brad Traversy",
+    lessons: [
+      {
+        id: 1,
+        title: "Let and Const",
+        videoId: "uDYyi5uZhKk",
+        duration: "12 min",
+      },
+      {
+        id: 2,
+        title: "Arrow Functions",
+        videoId: "6sQDTgOqh-I",
+        duration: "15 min",
+      },
+      {
+        id: 3,
+        title: "Template Literals",
+        videoId: "x1JSz6J6ZVQ",
+        duration: "10 min",
+      },
+      {
+        id: 4,
+        title: "Destructuring",
+        videoId: "NIq3qLaHCIs",
+        duration: "20 min",
+      },
+      {
+        id: 5,
+        title: "Spread & Rest Operators",
+        videoId: "T5kGxCmZpEc",
+        duration: "18 min",
+      },
+      {
+        id: 6,
+        title: "Promises and Async/Await",
+        videoId: "DHvZLI7Db8E",
+        duration: "35 min",
+      },
+    ],
   },
   {
     id: 3,
@@ -29,8 +105,40 @@ export const courseList = [
     duration: "4 hours",
     level: "Beginner",
     category: "Design",
-    videoId: "jV8B24rSN5o", // CSS Grid Course
+    videoId: "jV8B24rSN5o",
     instructor: "Dev Ed",
+    lessons: [
+      {
+        id: 1,
+        title: "Flexbox Basics",
+        videoId: "JJSoEo8JSnc",
+        duration: "22 min",
+      },
+      {
+        id: 2,
+        title: "Flexbox in Practice",
+        videoId: "K74l26pE4YA",
+        duration: "25 min",
+      },
+      {
+        id: 3,
+        title: "Grid Basics",
+        videoId: "t6CBKf8K_Ac",
+        duration: "30 min",
+      },
+      {
+        id: 4,
+        title: "Grid Layout Techniques",
+        videoId: "jV8B24rSN5o",
+        duration: "28 min",
+      },
+      {
+        id: 5,
+        title: "Responsive Design",
+        videoId: "z8nkAazLhTU",
+        duration: "24 min",
+      },
+    ],
   },
   {
     id: 4,
@@ -40,8 +148,40 @@ export const courseList = [
     duration: "10 hours",
     level: "Advanced",
     category: "Development",
-    videoId: "fBNz5xF-Kx4", // Node.js Tutorial
+    videoId: "fBNz5xF-Kx4",
     instructor: "Programming with Mosh",
+    lessons: [
+      {
+        id: 1,
+        title: "Node.js Basics",
+        videoId: "TlB_eWDSMt4",
+        duration: "20 min",
+      },
+      {
+        id: 2,
+        title: "Working with Express",
+        videoId: "L72fhGm1tfE",
+        duration: "40 min",
+      },
+      {
+        id: 3,
+        title: "REST API Design",
+        videoId: "vjf774RKrLc",
+        duration: "50 min",
+      },
+      {
+        id: 4,
+        title: "Authentication & Authorization",
+        videoId: "Z4NNe9uZa40",
+        duration: "45 min",
+      },
+      {
+        id: 5,
+        title: "Connecting to MongoDB",
+        videoId: "WXuK6gekU1Y",
+        duration: "30 min",
+      },
+    ],
   },
   {
     id: 5,
@@ -51,8 +191,34 @@ export const courseList = [
     duration: "3 hours",
     level: "Beginner",
     category: "Development",
-    videoId: "RGOj5yH7evk", // Git and GitHub Tutorial
+    videoId: "RGOj5yH7evk",
     instructor: "FreeCodeCamp",
+    lessons: [
+      {
+        id: 1,
+        title: "Git Basics",
+        videoId: "8JJ101D3knE",
+        duration: "15 min",
+      },
+      {
+        id: 2,
+        title: "Branching and Merging",
+        videoId: "fwBqNnZRaaQ",
+        duration: "20 min",
+      },
+      {
+        id: 3,
+        title: "GitHub Basics",
+        videoId: "gOX5EMCtWVk",
+        duration: "18 min",
+      },
+      {
+        id: 4,
+        title: "Pull Requests and Reviews",
+        videoId: "KzfqW6dQyBk",
+        duration: "22 min",
+      },
+    ],
   },
   {
     id: 6,
@@ -62,8 +228,40 @@ export const courseList = [
     duration: "12 hours",
     level: "Beginner",
     category: "Development",
-    videoId: "_uQrJ0TkZlc", // Python Tutorial
+    videoId: "_uQrJ0TkZlc",
     instructor: "Programming with Mosh",
+    lessons: [
+      {
+        id: 1,
+        title: "Python Basics",
+        videoId: "rfscVS0vtbw",
+        duration: "30 min",
+      },
+      {
+        id: 2,
+        title: "Data Types and Variables",
+        videoId: "xVrYL0l3v4k",
+        duration: "25 min",
+      },
+      {
+        id: 3,
+        title: "Control Flow",
+        videoId: "mO0cvwVp2OE",
+        duration: "28 min",
+      },
+      {
+        id: 4,
+        title: "Functions and Modules",
+        videoId: "8O0rRPOdLrA",
+        duration: "35 min",
+      },
+      {
+        id: 5,
+        title: "File Handling",
+        videoId: "2Fp1N6dof0Y",
+        duration: "20 min",
+      },
+    ],
   },
   {
     id: 7,
@@ -73,8 +271,34 @@ export const courseList = [
     duration: "5 hours",
     level: "Beginner",
     category: "Design",
-    videoId: "c9Wg6Cb_YlU", // UI/UX Design Tutorial
+    videoId: "c9Wg6Cb_YlU",
     instructor: "AJ&Smart",
+    lessons: [
+      {
+        id: 1,
+        title: "Design Thinking",
+        videoId: "ODmCiRj6WY4",
+        duration: "30 min",
+      },
+      {
+        id: 2,
+        title: "Wireframing Basics",
+        videoId: "sK5Pb6QVy7w",
+        duration: "25 min",
+      },
+      {
+        id: 3,
+        title: "User Research",
+        videoId: "RoHMdWL6B2o",
+        duration: "28 min",
+      },
+      {
+        id: 4,
+        title: "UI Design Basics",
+        videoId: "JJQSyyfpqKU",
+        duration: "35 min",
+      },
+    ],
   },
   {
     id: 8,
@@ -84,8 +308,34 @@ export const courseList = [
     duration: "7 hours",
     level: "Intermediate",
     category: "Business",
-    videoId: "nU-IIXBWlS4", // Digital Marketing Tutorial
+    videoId: "nU-IIXBWlS4",
     instructor: "Neil Patel",
+    lessons: [
+      {
+        id: 1,
+        title: "Introduction to Digital Marketing",
+        videoId: "rjvaOKKHLQ0",
+        duration: "15 min",
+      },
+      {
+        id: 2,
+        title: "SEO Basics",
+        videoId: "kZCVo0mVJwI",
+        duration: "20 min",
+      },
+      {
+        id: 3,
+        title: "Content Marketing",
+        videoId: "zxnV6-4yWZc",
+        duration: "22 min",
+      },
+      {
+        id: 4,
+        title: "Social Media Marketing",
+        videoId: "hxx0l8UjT6Q",
+        duration: "25 min",
+      },
+    ],
   },
   {
     id: 9,
@@ -94,7 +344,33 @@ export const courseList = [
     duration: "6 hours",
     level: "Advanced",
     category: "Development",
-    videoId: "-56x56UppqQ", // MongoDB Tutorial
+    videoId: "-56x56UppqQ",
     instructor: "The Net Ninja",
+    lessons: [
+      {
+        id: 1,
+        title: "MongoDB Basics",
+        videoId: "v2kF4pMHq_g",
+        duration: "20 min",
+      },
+      {
+        id: 2,
+        title: "Data Modeling",
+        videoId: "40ve3HSkWe0",
+        duration: "30 min",
+      },
+      {
+        id: 3,
+        title: "Aggregation Framework",
+        videoId: "z-1rvP_zWPE",
+        duration: "25 min",
+      },
+      {
+        id: 4,
+        title: "Performance Optimization",
+        videoId: "QYWxTT2oydY",
+        duration: "22 min",
+      },
+    ],
   },
 ]
