@@ -19,7 +19,7 @@ const Courses = () => {
             industry experts
           </p>
         </div>
-        <div className="flex justify-center gap-4 my-5 ">
+        <div className="flex flex-wrap justify-center gap-4 my-5 ">
           <button onClick={() => filterCourses("All")} className="filterButton">
             All
           </button>

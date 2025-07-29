@@ -1,12 +1,13 @@
 .filterButton{
   padding:6px 14px;
-  background-color: #e4e4e4;
+  background-color: white;
   cursor: pointer;
+  color: #0A033B;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
-  font-weight: lighter;
+  font-weight: light;
 }
 .filterButton:hover, .filterButton:focus{
-  color: whitesmoke;
+  color: white;
   background-color: #FF6652;
 }
