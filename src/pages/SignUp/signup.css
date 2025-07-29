@@ -1,0 +1,27 @@
+/* .formContainer label {
+  position: relative;
+  top: 40px;
+  left: 10px;
+  color: rgb(133, 133, 133);
+}
+.formContainer input:focus label{
+  top: -10px;
+} */
+
+.formField label{
+  position: relative;
+  top: -30px;
+  left: 10px;
+  transition: 0.3s ease;
+  pointer-events: none;
+}
+.formField:focus-within label {
+  color: #FF6652; 
+}
+.formField input:not(:placeholder-shown) + label {
+  top: 5px;
+  left: 5px;
+  margin-bottom: 10px ;
+  /* color:#FF6652; */
+  font-size: 12px;
+}
