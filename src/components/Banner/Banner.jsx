@@ -3,7 +3,7 @@ import React from 'react'
 const Banner = () => {
   return (
     <>
-      <div className="flex-row m-8 wrapper md:flex">
+      <div className="flex-row m-8 md:flex xl:max-w-6xl xl:mx-auto">
         <div className="flex-1 banner-left-side">
           <p className="inline-block p-3 text-sm font-normal text-red-500 bg-white rounded">
             Never Stop Learning
@@ -15,7 +15,7 @@ const Banner = () => {
             Learn new skills with short, focused online courses tailored for
             you. Join thousands of students already transforming their careers.
           </p>
-          <button className="px-6 py-2 mt-4 text-white rounded customPurple text-md font-extralight">
+          <button className="px-6 py-2 my-4 text-white transition duration-300 ease-in-out rounded cursor-pointer customPurple text-md font-extralight hover:shadow-lg hover:transform hover:scale-102">
             Start Learning
           </button>
         </div>
