@@ -1,27 +1,46 @@
-/* .formContainer label {
+.formField {
   position: relative;
-  top: 40px;
-  left: 10px;
-  color: rgb(133, 133, 133);
+  margin-bottom: 40px;
 }
-.formContainer input:focus label{
-  top: -10px;
-} */
-
-.formField label{
+.inputWrapper {
   position: relative;
-  top: -30px;
+  display: flex;
+  align-items: center; 
+}
+.formField label{
+  position: absolute;
+  top: 12px;
   left: 10px;
-  transition: 0.3s ease;
+  transition: all 0.5s ease;
   pointer-events: none;
 }
 .formField:focus-within label {
-  color: #FF6652; 
+  color: #9c4df4; 
 }
-.formField input:not(:placeholder-shown) + label {
-  top: 5px;
+.formField input:not(:placeholder-shown) + label,
+.formField input:focus + label {
+  top: -20px;
   left: 5px;
-  margin-bottom: 10px ;
-  /* color:#FF6652; */
+  
+  
   font-size: 12px;
+  color: #9c4df4;
+}
+.icons{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none; 
+  border: none; 
+  cursor: pointer;
+  padding: 0;
+}
+.formField input {
+  padding-right: 20px;
+  width: 100%;
+}
+.icons:focus {
+  color:  #9c4df4;
+  transition: all 0.3s ease-in;
 }
